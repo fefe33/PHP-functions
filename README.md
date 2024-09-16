@@ -7,10 +7,9 @@ these the current files/class definitions contained in this repo:
 <br><br>
 <div>
 <h2>files, classes, and usages</h2>
-<br>
 <h3>tables</h3>
+<h4>general usage</h4>
 <ul>
-<li><h4>general usage</h4></li>
 <li>
   <p>call the constructor:</p><br>
   <code>$mytable = new Table([&lt;titleA&gt;, &lt;titleB&gt;], [[&lt;value_A1&gt;,&lt; value_A2&gt;],[&lt;value_B1&gt;,&lt;value_B2&gt;],...);</code>
