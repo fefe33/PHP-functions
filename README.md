@@ -1,6 +1,6 @@
-<h1>random PHP files</h1>
-this project contains some random PHP functions I wrote when I was bored. i intend to add more with time.
-these the current files/class definitions contained in this repo:
+<h1>PHP functions for writing HTML</h1>
+<p>this repo is for php functions that generate and style HTML</p>
+these are the current files/class definitions contained in this repo:
 <ul>
   <li>tables.php</li>
 </ul>
