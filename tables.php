@@ -62,7 +62,7 @@ class Table {
 		$this->HTML = str_replace('###', $this->thead.$this->tbody, $this->table);
 		return $this;
 	}
-	//style it (with inline CSS) -- its your as job not to fck this up. add a quote somewhere you shouldnt it will break your HTML 
+	//style it (with inline CSS) -- i need to fix this 
 	public function style($element, $icss) {
 		if (!array_key_exists($element, $this->valid_elements)) {
 			return false;	//return false if elements isnt valid;
