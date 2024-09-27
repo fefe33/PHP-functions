@@ -51,7 +51,7 @@
 </li>
 </ol>
 <h4>id structure in returned HTML</h4>
-<p>IDs are all based on the original formID provided in the constructor. each input within the form has an id whose syntax is as such: <code>$formID-&lt;int&gt; </code> where the integer is the index of the input relative all the others in the form (whose order is determined by the order in which they are called). radios contained in fieldsets have ids in a different syntax: <code>formID-&lt;int&gt;-Name-&lt;int&gt;-</code>. the first int is the index of the <em>fieldset</em> relative to the <em>form</em>, the second is the index of the radio-element relative to the fieldset.</p>
+<p>IDs are all based on the original formID provided in the constructor. each input within the form has an id whose syntax is as such: <code>$formID-&lt;int&gt; </code> where the integer is the index of the input relative all the others in the form (whose order is determined by the order in which one calls the methods). radios contained in fieldsets have ids in a different syntax: <code>formID-&lt;int&gt;-Name-&lt;int&gt;-</code>. the first int is the index of the <em>fieldset</em> relative to the <em>form</em>, the second is the index of the radio-element relative to the fieldset.</p>
   
 <em>see file example.php for more detailed examples of how to use the different methods.</em>
 </div>
