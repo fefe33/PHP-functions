@@ -1,7 +1,7 @@
 <h1>PHP functions for writing HTML</h1>
 <br><br>
 <div>
-<h3>Table class<:/h3>
+<h3>Table class</h3>
 <ol>
 <li>
   <p>call the constructor: </p>
